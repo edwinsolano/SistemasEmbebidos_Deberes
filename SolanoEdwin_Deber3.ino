@@ -48,8 +48,8 @@ void setup() {
   Serial.println("UTN_FICA_CITEL");
   Serial.println("SISTEMAS EMBEBIDOS");
   Serial.println("Solano Edwin Deber 3");
-  Serial.println("Juego de Preguntas");
-  Serial.println();
+  Serial.println("responda si o no al juego de preguntas");
+  Serial.println(' ');
   }
 
 void loop() {
