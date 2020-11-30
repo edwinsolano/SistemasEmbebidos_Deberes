@@ -180,25 +180,25 @@ void loop() {
         Serial.println(""); 
         }       
     conteo = item0+item1+item2+item3+item4+item5+item6+item7+item8;//suma de las respuestas correctas
-           if(conteo==0){ //condicion si la suma es 0 activa en vinario el numero 0
+           if(conteo==0){ //condicion si la suma es 0 activa en binario el numero 0
         digitalWrite(A,LOW);
         digitalWrite(B,LOW);
         digitalWrite(C,LOW);
         digitalWrite(D,LOW);
                         }
-           if(conteo==1){ //condicion si la suma es 1 activa en vinario el numero 1
+           if(conteo==1){ //condicion si la suma es 1 activa en binario el numero 1
         digitalWrite(A,HIGH);
         digitalWrite(B,LOW);
         digitalWrite(C,LOW);
         digitalWrite(D,LOW);
                         }
-          if(conteo==2){ //condicion si la suma es 2 activa en vinario el numero 2
+          if(conteo==2){ //condicion si la suma es 2 activa en binario el numero 2
         digitalWrite(A,LOW);
         digitalWrite(B,HIGH);
         digitalWrite(C,LOW);
         digitalWrite(D,LOW);
                         }
-           if(conteo==3){ //condicion si la suma es 3 activa en vinario el numero 3
+           if(conteo==3){ //condicion si la suma es 3 activa en binario el numero 3
         digitalWrite(A,HIGH);
         digitalWrite(B,HIGH);
         digitalWrite(C,LOW);
@@ -210,7 +210,7 @@ void loop() {
         digitalWrite(C,HIGH);
         digitalWrite(D,LOW);
                         }
-           if(conteo==5){ //condicion si la suma es 5 activa en vinario el numero 5
+           if(conteo==5){ //condicion si la suma es 5 activa en binario el numero 5
         digitalWrite(A,HIGH);
         digitalWrite(B,LOW);
         digitalWrite(C,HIGH);
