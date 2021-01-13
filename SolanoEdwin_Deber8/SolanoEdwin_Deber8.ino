@@ -7,10 +7,10 @@
  *objetivo: Realizar un código que el sistema se reinicia cada minuto, 
  *active el conversor análogo-digital realice una lectura y vuelve el sistema a un modo sleep.
  */
- #include<avr/power.h>
- #include<avr/sleep.h>
- #include<avr/wdt.h>
- #include<MsTimer2.h>
+ #include<avr/power.h>//libreria encendido
+ #include<avr/sleep.h>//libreria modo sleep
+ #include<avr/wdt.h>//perro guardian libreria
+ #include<MsTimer2.h>//libreria del timer 2 reloj
 
 int on=0;
 int tiempo=60;
